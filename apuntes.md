@@ -12,6 +12,7 @@
     - [Etapas del EDA](#etapas-del-eda)
   - [Comparación: EDA vs análisis clásico vs análisis bayesiano](#comparación-eda-vs-análisis-clásico-vs-análisis-bayesiano)
   - [Herramientas de software para análisis exploratorio de datos](#herramientas-de-software-para-análisis-exploratorio-de-datos)
+  - [Visualizaciones de EDA](#visualizaciones-de-eda)
 - [Estadística básica](#estadística-básica)
 - [Procesamiento de datos](#procesamiento-de-datos)
 - [Operaciones de datos](#operaciones-de-datos)
@@ -93,6 +94,16 @@ El foco principal del EDA es contar una historia prediciendo cuánto se va optim
 - **Azure Notebooks**: Azure apuesta que aquí solo se haga experimentación y que el deploy del modelo se haga en su plataforma.
 - **R Studio**: Este entorno tiene el Kernel de R y es un software especializado en estadística. Tiene muchas más bibliotecas de estadística que en el caso de Python, apenas están llegando.
 - **Knime**: Esta herramienta se enfoca para personas que no saben programar, es para personas que tiene conocimiento de negocio y no hay un experto que haga el flujo de trabajo del área de datos.
+
+## Visualizaciones de EDA
+
+¿Por qué es importante hacer una buena visuzalización de datos?
+
+La visualización de datos no es sólo una herramienta útil para presentar resultados sino también para la exploración eficaz de los mismos, la visualización de datos efectiva es una habilidad técnica cada día más codiciada, porque los gráficos bien diseñados son capaces de transferir una gran cantidad de información en poco tiempo.
+
+[Jupyter de la clase - Visualizacion de datos](1.introduccion-analisis-exploratorio-de-datos/visualizacion-de-datos.ipynb)
+
+[Jupyter con ejemplos de diversas visualizaciones de datos](1.introduccion-analisis-exploratorio-de-datos/visualizaciones-de-datos-en-colab.ipynb)
 
 # Estadística básica
 
