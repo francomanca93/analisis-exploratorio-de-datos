@@ -10,6 +10,7 @@
     - [¿Qué es un EDA?](#qué-es-un-eda)
     - [Historia](#historia)
     - [Etapas del EDA](#etapas-del-eda)
+  - [Comparación: EDA vs análisis clásico vs análisis bayesiano](#comparación-eda-vs-análisis-clásico-vs-análisis-bayesiano)
 - [Estadística básica](#estadística-básica)
 - [Procesamiento de datos](#procesamiento-de-datos)
 - [Operaciones de datos](#operaciones-de-datos)
@@ -62,6 +63,25 @@ Antes de hacer cualquier modelo de ML o DP debemos de entender:
 
 El foco principal del EDA es contar una historia prediciendo cuánto se va optimizar el problema implementando el modelo que vamos a proponer. Un científico de datos le da un valor a los datos.
 
+## Comparación: EDA vs análisis clásico vs análisis bayesiano
+
+¿Cuáles son las características entre **EDA**, **análisis clásico/estadístico** y **análisis bayesiano**?
+
+![eda-vs-ac-ab](https://imgur.com/g5gjzJT.png)
+
+- **Análisis clásico**: Aquí simplemente mostramos los resultados, no importa que pase con esa información, no importa que es lo que significa o que hubo antes como tal, solo se presenta un análisis clásico, un análisis de medias, un análisis estadístico, pero no se da un contexto de un problema que vayamos a resolver.
+
+- **Análisis bayesiano**: Siempre considera que es la distribución a priori, es decir que es lo que paso anteriormente para yo predecir el futuro, pero aveces no toma en consideración que es lo que puede pasar con este modelo, que mas podemos entender y que otro tipo de variables podemos meter.
+
+- **EDA**: Este es totalmente dinámico, puede regresar para entender lo que está pasando y al final lanzar un modelo de **ML, DP**, alguna **automatización** o alguna **mejora para el negocio** que le dé una ganancia, por eso es muy importante para entender que el EDA, parte del contexto del negocio, parte de una serie de hipótesis para hacer un análisis dinámico para entender que valor y que propuesta voy a dar.
+
+> En el data analysis clasico y bayesiano, el modelo va antes del data analysis, en cambio en el análisis exploratorio (EDA), primero se analizan los datos para proponer un modelo.
+
+![comparativas](https://imgur.com/hi8N3va.png)
+
+[Hands-On Exploratory Data Analysis with Python](https://www.amazon.es/Hands-Exploratory-Data-Analysis-Python/dp/1789537258)
+
+[Hands-On Exploratory Data Analysis with Python in Github](https://github.com/PacktPublishing/Hands-on-Exploratory-Data-Analysis-with-Python)
 # Estadística básica
 
 # Procesamiento de datos
